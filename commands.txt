@@ -1,0 +1,36 @@
+    4  yum install git
+    9  git init
+   13  git status
+   14  git add test1.txt 
+   15  git commit -m "adding test1 file"
+   16  git config --global user.name "Aditya Tak"
+   17  git config --global user.email "Adityatakb1992@gmail.com"
+   18  git status
+   19  git log --oneline
+   21  git add test2.txt 
+   22  git commit -m "adding test2 file"
+   23  vi .gitignore
+   24  git status
+   28  git statuds
+   29  git status
+   30  git add .gitignore 
+   31  git commit -m "adding .gitignore file"
+   33  git ls-files
+   35  git status
+   36  git stash
+   37  git status
+   39  git stash pop
+   42  git commit -am "modifying test1 file"
+   43  git status
+   44  git status
+   45  git remote add origin https://github.com/Adityatak/devopsclass.git
+   46  git push origin master
+   47  git remote -v
+   48  git branch
+   49  git checkout -b b1
+   50  git branch
+   51  git ls-files
+   52  git push origin b1
+   53  git branch
+   54  git pull origin b1
+   57  history | grep "git" >> commands.txt
